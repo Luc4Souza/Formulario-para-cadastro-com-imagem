@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulario de cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="form">
+            <div class="form-image">
+                <img src="imagens/undraw_access_account_re_8spm.svg" alt="imagem de cadastro">
+            </div>
+            <form action="#">
+                
+                
+                <div class="form-header">
+                    <div class="title">
+                        <h1>
+                          Cadastre-se
+                        </h1>
+                    </div>
+                </div>
+                <div class="input-group">
+                
+                    <div class="input-box">
+                        <label name="name" for="name">Nome</label>
+                        <input class="nomes" class="nome-inp1" name="name" type="text" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="input-box">
+                        <label name="name" for="sobrenome">Sobrenome</label>
+                        <input class="nome-inp2" name="sobrenome" type="text"  placeholder="Digite seu sobrenome" required>
+                    </div>
+                    
+                    <div class="input-box">
+                        <label name="e-mail" for="e-mail">E-mail</label>
+                        <input name="e-mail" type="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label name="senha" for="senha">Senha</label>
+                        <input name="senha" type="password" placeholder="Digite sua senha">
+                    </div>
+
+                    <div class="input-box">
+                        <label name="senha" for="senha">Confirme sua Senha</label>
+                        <input name="senha" type="password" placeholder="Digite novemente sua senha">
+                    </div>
+
+                    <div class="input-box">
+                        <label name="telefone" for="telefone">Telefone</label>
+                        <input name="telefone" type="text" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="gender-inputs">
+                        <div class="gender-title">
+                           <h2>
+                            Genero
+                           </h2>
+                        </div>
+    
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input type="radio" name="gender">
+                                <label for="male">Masculino</label> 
+                            </div>
+    
+                            <div class="gender-input">
+                                <input type="radio" name="gender">
+                                <label for="female">Feminino</label>
+                            </div>
+    
+                            
+                            <div class="gender-input">
+                                <input type="radio" name="gender">
+                                <label for="">Prefiro não dizer</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="botao">
+                    <button><a href="">Enviar</a></button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>
+            desenvolvido por <a href="https://github.com/Luc4Souza/Formulario-para-cadastro-com-imagem" target="_blank">Lucas Souza</a>
+        </p>
+    </footer>
+    
+</body>
+</html>
